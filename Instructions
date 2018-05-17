@@ -1,0 +1,42 @@
+Max Msp Patch Instructions 
+
+
+Requirements : 
+
+1 Midi Controller (Keyboard) 
+1 Midi Controller (Knobs and/or sliders) 
+
+
+Set All Midi.
+
+21 - 0  (Granular synth Volume)
+22 - 0  (Psynth Volume)
+23 - Middle C of the Kslider (Pitch Granular)
+24- Free (Scrub Location Granular)
+25 - 0 (Granular On/Off)
+26 - 0 (LowPass Filter Granular)
+27 - 0 (LowPass Filter Psynth) 
+28 - 0 (Granular Synth Speed) 
+
+41 - To your Liking (Tapout Delay Number 1 in P addSynth)
+42 - To your Liking (Tapout Delay Number 1 in P addSynth)
+43 - 0 (Low Duration Granular)
+44 - 127 (High Duration Granular)
+45 - 0 (Low Location Granular) 
+46 - 127 ( High Location Granular)
+47 - 0 (Decay Time Reverb Granular)
+48 - 0 (Decay Time Reverb P Synth) 
+
+Set The Rest Of The Parameters
+
+Load in audio of your choice for granular (In my case ‘Carry me.wav’ - Included in folder)
+Size Yafr2 Granular - To Your Liking
+Size Yafr2 P addysythn - To Your Liking 
+Set every multiplier number in the additive synth to the number of your liking, Ideally relatively close to its original number (I.e 2.6 for 2 etc)  (See Image 1)
+Set all 3 Tap Out numbers to your liking in additive synth (See Image 2)
+Set Domain - Set Duration to your liking (See Image 3)
+
+Addystytnh gain - 11.0dB
+Live Gain  - 0.0 dB
+Switch 25 to 1 
+Start Experimenting! 
